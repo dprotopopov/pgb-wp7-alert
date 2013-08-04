@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PGB WP7 Alert</title>
+
+	<script src="phonegap.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+		// Wait for Cordova to load
+		//
+		document.addEventListener("deviceready", onDeviceReady, false);
+		
+		// Cordova is ready
+		//
+		function onDeviceReady() {
+			navigator.notification.alert("Device Ready!");
+		}
+    </script>
+</body>
+</html>
